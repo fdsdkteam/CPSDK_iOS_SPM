@@ -14,8 +14,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "PaymentSDK",
-            url: "https://github.com/fdsdkteam/CPSDK_iOS_SPM/releases/download/1.3.9/PaymentSDK_v1.3.9.xcframework.zip",
-            checksum: "1ec01398d7b7830d59e49d9ca285b3ec65e2dba048d938cefcbc79bdf94c905b"
+            url: "https://github.com/fdsdkteam/CPSDK_iOS_SPM/releases/download/1.4.0/PaymentSDK_v1.4.0.xcframework.zip",
+            checksum: "7c5b9173c583e4c362ad81997731f2e90c105c7a1d6c86102dd5bd5cfc2afa94"
         ),
         .binaryTarget(
             name: "PayWithMyBank",
