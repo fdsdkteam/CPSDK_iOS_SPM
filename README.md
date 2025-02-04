@@ -30,7 +30,7 @@ PaymentSDK, PayWithMyBank and RLTMXProfiling frameworks should be **Embed & Sign
 
 | Tool| Version| 
 |---------------|------|
-|Xcode |15.4| 
+|Xcode |16.2| 
 |Swift |5.8.1|
 |iOS Deployment Target |13.0| 
 
