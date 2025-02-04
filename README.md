@@ -1,33 +1,32 @@
-# CPSDK_iOS_Package
-CPSDK iOS Swift Package Manager 
+# CPSDK_iOS_SPM
 
-###### Download iOS CPSDK through Swift Package Manager
+**CPSDK SPM Integration**
 
-Lastest iOS version is - **1.3.9**
+Add the SDK as a Swift Package. More detailed instructions can be found below:
 
-.package(url: "https://github.com/fdsdkteam/CPSDK", from: "1.3.9")
+###### Step-by-Step Integration
+
+1. Open Xcode
+2. Navigate to File -> Swift Packages -> Add Package Dependency.
+3. Paste the CPSDK SPM URL: https://github.com/fdsdkteam/CPSDK_iOS_SPM.
+4. Select Up to Next Major version and make sure you have the latest version (e.g., 1.4.0).
+5. Click "Add Package" button to finish.
+6. You should now see the swift package (CPSDK_iOS_SPM 1.4.0) in the project navigator.
+   
+
 
 ###### **SPM Usage**
 
-import PaymentSDK
-import PayWithMyBank
-import RLTMXProfiling
+1. import PaymentSDK
+2. import PayWithMyBank
+3. import RLTMXProfiling
+
+Lastest iOS version is - **1.4.0**
+
+PaymentSDK, PayWithMyBank and RLTMXProfiling frameworks should be **Embed & Sign** in the project.
 
 
-
-###### Download xcframework zip files directly from GitHub.
-
-iOS latest build is *PaymentSDK.v1.3.9.xcframework.zip* loacated at [CPSDK/IOS/Release/cp_sdk_library_release/](https://github.com/fdsdkteam/CPSDK/tree/master/IOS/Release/cp_sdk_library_release).
-
-Latest [SDK Dependencies](https://github.com/fdsdkteam/CPSDK/tree/master/IOS/Release/SDK_Dependencies) versions are:
-PaywithmyBank version 2.3.0 and RLTMXProfiling version 6.3.70
-
- - SDK Dependencies should be included along with the PaymentSDK in the Application and should be **Embed & Sign**.
- - Sample app - https://github.com/fdsdkteam/CPSDK/tree/master/IOS/CPDemo/2024/Oct/v1.3.9/CPSDKSampleApp
-    
-
-
-###### Minimum OS versions supported.
+# **Minimum OS versions supported.**
 
 | Tool| Version| 
 |---------------|------|
@@ -37,7 +36,7 @@ PaywithmyBank version 2.3.0 and RLTMXProfiling version 6.3.70
 
 
 
-###### oAuth Completion:
+# **oAuth Completion.**
 
 We needed to add the Url Scheme for deeplinking in order to complete oAuth. The format for the Url Scheme should be like below,
 
