@@ -21,7 +21,7 @@ Add the SDK as a Swift Package. More detailed instructions can be found below:
 2. import PayWithMyBank
 3. import RLTMXProfiling
 
-Lastest iOS version is - **1.4.0**
+Lastest iOS SDK version is - **1.4.0**
 
 PaymentSDK, PayWithMyBank and RLTMXProfiling frameworks should be **Embed & Sign** in the project.
 
