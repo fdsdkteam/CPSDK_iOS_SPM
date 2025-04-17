@@ -9,9 +9,9 @@ Add the SDK as a Swift Package. More detailed instructions can be found below:
 1. Open Xcode
 2. Navigate to File -> Swift Packages -> Add Package Dependency.
 3. Paste the CPSDK SPM URL: https://github.com/fdsdkteam/CPSDK_iOS_SPM.
-4. Select Up to Next Major version and make sure you have the latest version (e.g., 1.4.1).
+4. Select Up to Next Major version and make sure you have the latest version (e.g., 1.4.2).
 5. Click "Add Package" button to finish.
-6. You should now see the swift package (CPSDK_iOS_SPM 1.4.1) in the project navigator.
+6. You should now see the swift package (CPSDK_iOS_SPM 1.4.2) in the project navigator.
    
 
 
@@ -21,7 +21,7 @@ Add the SDK as a Swift Package. More detailed instructions can be found below:
 2. import PayWithMyBank
 3. import RLTMXProfiling
 
-Lastest iOS SDK version is - **1.4.1**
+Lastest iOS SDK version is - **1.4.2**
 
 PaymentSDK, PayWithMyBank and RLTMXProfiling frameworks should be **Embed & Sign** in the project.
 
