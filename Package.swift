@@ -19,12 +19,12 @@ let package = Package(
         ),
         .binaryTarget(
             name: "PayWithMyBank",
-            url: "https://github.com/fdsdkteam/CPSDK_iOS_SPM/releases/download/1.3.9/PayWithMyBank_v2.3.0.xcframework.zip",
+            url: "https://github.com/fdsdkteam/CPSDK_iOS_SPM/releases/download/1.4.2/PayWithMyBank_v2.3.0.xcframework.zip",
             checksum: "b467822c1976fd95a7e6139e4f3789e670d19a9b3f703b52ec4c6b9ea02db191"
         ),
         .binaryTarget(
             name: "RLTMXProfiling",
-            url: "https://github.com/fdsdkteam/CPSDK_iOS_SPM/releases/download/1.3.9/RLTMXProfiling_v6.3.70.xcframework.zip",
+            url: "https://github.com/fdsdkteam/CPSDK_iOS_SPM/releases/download/1.4.2/RLTMXProfiling_v6.3.70.xcframework.zip",
             checksum: "84a6e3395e0f981d14ad58e95459edbc24db555508d6b6255d0adc7dd30a38cf"
         ),
         .testTarget(
